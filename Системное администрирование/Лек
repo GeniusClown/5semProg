@@ -1,0 +1,44 @@
+Команды git при работе с командной строкой
+1.  Репозиторий - папка проекта.
+2.  Индекс - файл, в котором содержатся изменения подготовленные для добавления в коммит.
+3.  Коммит - фиксация изменений, внесенных в индекс.
+4.  Указатели HEAD, ORIGHEAD и т. д. _ это ссылка на определенный коммит.
+5.  Ветка - это последовательноть коммитов.
+
+Git Bash - эмуляция командной оболочки Bash.
+https://github.com/git-guides?ysclid=l7r7jx043q759125967
+
+Каталог Git
+Рабочая директория
+Индекс / Область подготовленных файлов
+![image](https://user-images.githubusercontent.com/97594483/188800474-c80d952b-d02a-4342-bab0-4e41afcddcef.png)
+![image](https://user-images.githubusercontent.com/97594483/188801142-778571f8-a276-4b4f-a356-56617a6e3d45.png)
+![image](https://user-images.githubusercontent.com/97594483/188803841-595f0270-c19b-4b79-ac7e-f9df57eb4e44.png)
+  -l                         use a long listing format
+  -a, --all                  do not ignore entries starting with .
+  Одна точка дочернаяя, родительская папка
+  Точка в начале названия - скрытая папка
+  d = директория.
+  - = обычный файл
+  Права доступа:
+  Read(Чтение) - r
+  Write(Редактирование) - w
+  Execute(ЗАпуск) - x
+  
+  d rwx r-x r-x
+  отделяют группы пользователей rwx-одна группа(администратор/создателй файла) r-x - вторя(пользователь файла) те, кто не авторизовались
+  master = основная ветка
+  
+  
+  1. Перенос файлов с локального компьютера на сервер
+
+  git init = Initialized(создание)
+![image](https://user-images.githubusercontent.com/97594483/188810482-f438bb22-3288-4fcc-a2be-ac0954f37aab.png)
+структура гит
+![image](https://user-images.githubusercontent.com/97594483/188814258-258af322-666a-4e82-9d9c-5d2b2d86e9d6.png)
+
+![image](https://user-images.githubusercontent.com/97594483/188816378-54a008af-ba73-4786-b760-a9ac1386a2ac.png)
+![image](https://user-images.githubusercontent.com/97594483/188817241-bb6e0443-b8a0-44e9-8a45-fda99a84dcf6.png)
+
+  2. Перенос файлов с сервера на локальный компьютер
+
